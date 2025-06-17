@@ -1,0 +1,8 @@
+FROM mariadb:10.11
+
+ENV MARIADB_ROOT_PASSWORD=mypasswordroot
+ENV MARIADB_DATABASE=wiki_analytics
+ENV MARIADB_USER=wiki_user
+ENV MARIADB_PASSWORD=contrasena_segura
+
+EXPOSE 3306
